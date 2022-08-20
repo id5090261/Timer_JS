@@ -7,7 +7,7 @@ let timeCircle = document.querySelector(".c100");
 startCounter.addEventListener('click', function(e) {
     let seconds = parseInt(inputCounter.value)
     if(isNaN(seconds)) {
-        errorElement.textContent = "enter valid number";
+        // errorElement.textContent = "enter valid number";
         errorElement.classList.add('active');
         return;
     }
