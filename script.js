@@ -23,6 +23,7 @@ startCounter.addEventListener('click', function(e) {
             clearInterval(timerId);
             startBox.classList.add('active');
             timeCircle.style.display = 'none';
+            startBox.style.display = 'block';
         }
         seconds -= 1;
         timerNum.textContent = seconds;
